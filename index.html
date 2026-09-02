@@ -6,9 +6,15 @@
 <title>Wisebridge Consultancy — Study Abroad Guidance, At No Cost to You</title>
 <meta name="description" content="Wisebridge is zero-fee, commission-free guidance for Indian students applying abroad — country and course selection, applications, SOPs, loans, and visas. Talk to a mentor who has been there.">
 
+<!-- Social & favicon (replace /assets/placeholder.png with your image) -->
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta property="og:title" content="Wisebridge Consultancy — Study Abroad Guidance, At No Cost to You">
 <meta property="og:description" content="Commission-free guidance for Indian students applying abroad. From choosing a country to landing after your visa interview.">
 <meta property="og:type" content="website">
+<meta property="og:image" content="/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +29,13 @@
 <header class="site-header">
   <div class="wrap header-row">
     <span class="wordmark">Wisebridge</span>
-    <nav class="header-nav" aria-label="Primary">
+
+    <!-- Mobile nav toggle -->
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="primary-nav" aria-expanded="false">
+      <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="20" height="2" rx="1" fill="currentColor"></rect><rect y="6" width="20" height="2" rx="1" fill="currentColor"></rect><rect y="12" width="20" height="2" rx="1" fill="currentColor"></rect></svg>
+    </button>
+
+    <nav id="primary-nav" class="header-nav" aria-label="Primary">
       <a href="#help-with">What we help with</a>
       <a href="#how-it-works">How it works</a>
       <a href="#connect" class="header-cta">Talk to a mentor</a>
